@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" android:layout_height="wrap_content"
+android:orientation="horizontal" android:padding="2dp"
+android:id="@+id/customRow"
+android:background="#fbfbfb"
+    >
+
+<ImageView
+
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:id="@+id/icon_recyclerList"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="15dp"/>
+
+
+
+<TextView
+    android:id="@+id/interest_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Large Text"
+    android:paddingTop="5dp"
+
+    android:layout_alignParentTop="true"
+    android:layout_toEndOf="@+id/icon_recyclerList"
+    android:layout_marginStart="15dp" />
+
+<TextView
+    android:id="@+id/interest_descript"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Small Text"
+
+    android:layout_alignBottom="@+id/interest_checkBox"
+    android:layout_alignStart="@+id/interest_title" />
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/interest_checkBox"
+    android:layout_below="@+id/interest_title"
+    android:layout_alignParentRight="true"
+    android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

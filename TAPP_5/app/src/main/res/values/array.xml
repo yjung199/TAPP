@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="results_array">
+        <item>Flight</item>
+        <item>Accommodation</item>
+        <item>Points of Interest</item>
+    </string-array>
+
+    <string-array name="resultsDescription_array">
+        <item>this is dummy description for flight</item>
+        <item>this is dummy description for acomm</item>
+        <item>this is dummy description for poi</item>
+
+    </string-array>
+
+    <string-array name = "tabs">
+        <item>Tab 1</item>
+        <item>Tab 2</item>
+        <item>Tab 3</item>
+    </string-array>
+
+
+
+
+
+</resources>

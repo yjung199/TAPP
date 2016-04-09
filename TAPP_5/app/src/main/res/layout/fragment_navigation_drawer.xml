@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="coms309_29.tapp_5.NavigationDrawerFragment"
+    android:background="#eee">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/containerDrawerImage"
+        android:layout_width="280dp"
+        android:layout_height="164dp"
+        android:background="#FB8c00">
+        <ImageView
+            android:id="@+id/placeholder"
+            android:layout_marginTop="24dp"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_abstract"
+            android:layout_marginBottom="16dp"
+        />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerDrawerList"
+        android:layout_below="@+id/containerDrawerImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
